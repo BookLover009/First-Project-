@@ -52,3 +52,26 @@ p {
 marquee{
     size: 100%;
 }
+table{
+    font-family:'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th{
+    border: 1px solid aliceblue;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+    color:black;
+}
+tr:hover{
+    background-color:aliceblue;
+}
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:cadetblue;
+    color:white;
+}
