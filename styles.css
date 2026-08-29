@@ -1,5 +1,5 @@
 * {
-    front-family:sans-serif;
+    font-family:sans-serif;
 }
 main{
     display:flex;
@@ -32,4 +32,8 @@ img{
 a {
     font-size: 18px;
     color: beige;
+}
+button{
+    background-color: beige;
+    color:cadetblue;
 }
