@@ -1,6 +1,13 @@
 * {
     font-family:'Times New Roman', Times, serif;
 }
+.header {
+    align-items:center;
+    position:sticky;
+    top:0;
+    padding: 20px 100px;
+    background-color:cadetblue;
+}
 main{
     display:flex;
     flex-direction:column;
@@ -36,4 +43,12 @@ a {
 button{
     background-color: beige;
     color:cadetblue;
+    font-size: 18px;
+}
+p {
+    font-size: 20px;
+    color:pink;
+}
+marquee{
+    size: 100%;
 }
